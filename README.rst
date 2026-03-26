@@ -61,7 +61,11 @@ Running: ``awslogs get /var/logs/syslog ALL -s1d`` will return you events from a
 Installation
 ------------
 
-You can easily install ``awslogs`` using ``pip``::
+You can easily install ``awslogs`` using ``uv``::
+
+  $ uv tool install awslogs
+
+or ``pip``::
 
   $ pip install awslogs
 
